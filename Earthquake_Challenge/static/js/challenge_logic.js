@@ -1,4 +1,4 @@
-// Add console.log to check to see if our code is working.
+// Add console.log to check to see if the code is working...
 console.log("working");
 
 // We create the tile layer that will be the background of our map.
@@ -36,7 +36,7 @@ let baseMaps = {
   "Dark": dark
 };
 
-// 1. Add a 3rd layer group for the tectonic plate data.
+// 1. Add the 3rd layer group for the tectonic-plate data.
 let allEarthquakes = new L.LayerGroup();
 let tectonicPlates = new L.LayerGroup();
 let majorEQ = new L.LayerGroup();
@@ -225,7 +225,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geoj
   }).addTo(majorEQ);
 
 });  
-  // Then we add the major Earthquakes to our map
+  // Then we add the major Earthquakes to our map.
   majorEQ.addTo(map);
 
 
